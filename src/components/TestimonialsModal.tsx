@@ -1,4 +1,4 @@
-import { motion, AnimatePresence, useAnimation } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState, useRef } from 'react'
 import testimonialsData from '../testimonials.json'
 
@@ -13,7 +13,6 @@ export const TestimonialsModal = ({ isOpen, onClose }: TestimonialsModalProps) =
   const intervalRef = useRef<number | null>(null)
   const testimonials = testimonialsData.testimonials
   const [isDragging, setIsDragging] = useState(false)
-  const controls = useAnimation()
 
   // Auto-play functionality
   useEffect(() => {
@@ -58,7 +57,7 @@ export const TestimonialsModal = ({ isOpen, onClose }: TestimonialsModalProps) =
     setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
   }
 
-  const handleDragEnd = (event: any, info: any) => {
+  const handleDragEnd = (_event: any, info: any) => {
     setIsDragging(false)
     const swipeThreshold = 50
     const swipeVelocity = info.velocity.x
