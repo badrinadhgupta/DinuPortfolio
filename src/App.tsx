@@ -135,18 +135,31 @@ function App() {
               </div>
             </div>
           </Card>
-          <Card className='flex-shrink-0 bg-white shadow-lg p-5 hover:shadow-xl transition-all duration-300' animationType='fadeIn'>
-            <div className='flex h-full justify-center items-center'>
-              <div className='flex flex-row space-x-8'>
+          <Card className='flex-shrink-0 bg-white shadow-lg p-6 hover:shadow-xl transition-all duration-300 relative overflow-hidden' animationType='fadeIn'>
+            <div className='absolute top-0 right-0 w-16 h-16 bg-emerald-100/10 rounded-full -mr-8 -mt-8'></div>
+            <div className='flex flex-col h-full justify-center items-center space-y-4 relative'>
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 3.0, duration: 0.6 }}
+                className='text-center'
+              >
+                <div className='text-emerald-600 font-roboto-condensed text-sm font-medium tracking-wide mb-1'>
+                  Currently accepting new clients, reach out!
+                </div>
+                <div className='w-12 h-px bg-gradient-to-r from-transparent via-emerald-300 to-transparent mx-auto'></div>
+              </motion.div>
+              <div className='flex flex-row space-x-6'>
                 <motion.a 
                   href="https://www.instagram.com/dinika.gowda/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   whileTap={{ scale: 0.95 }}
-                  className='p-3 bg-gray-50 rounded-full hover:bg-emerald-50 transition-all duration-300'
+                  className='p-3 bg-gray-50 rounded-full hover:bg-emerald-50 transition-all duration-300 group'
+                  aria-label="Follow on Instagram"
                 >
-                  <img src={InstagramIcon} alt="Instagram" className='w-10 h-10' />
+                  <img src={InstagramIcon} alt="Instagram" className='w-9 h-9 group-hover:scale-110 transition-transform duration-300' />
                 </motion.a>
                 <motion.a 
                   href="https://www.linkedin.com/in/dinika-gowda-a4938a59/" 
@@ -154,17 +167,19 @@ function App() {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: -5 }}
                   whileTap={{ scale: 0.95 }}
-                  className='p-3 bg-gray-50 rounded-full hover:bg-emerald-50 transition-all duration-300'
+                  className='p-3 bg-gray-50 rounded-full hover:bg-emerald-50 transition-all duration-300 group'
+                  aria-label="Connect on LinkedIn"
                 >
-                  <img src={LinkedInIcon} alt="LinkedIn" className='w-10 h-10' />
+                  <img src={LinkedInIcon} alt="LinkedIn" className='w-9 h-9 group-hover:scale-110 transition-transform duration-300' />
                 </motion.a>
                 <motion.a 
                   href="mailto:gopinath.dinks@gmail.com"
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   whileTap={{ scale: 0.95 }}
-                  className='p-3 bg-gray-50 rounded-full hover:bg-emerald-50 transition-all duration-300'
+                  className='p-3 bg-gray-50 rounded-full hover:bg-emerald-50 transition-all duration-300 group'
+                  aria-label="Send email"
                 >
-                  <img src={EmailIcon} alt="Email" className='w-10 h-10' />
+                  <img src={EmailIcon} alt="Email" className='w-9 h-9 group-hover:scale-110 transition-transform duration-300' />
                 </motion.a>
               </div>
             </div>
