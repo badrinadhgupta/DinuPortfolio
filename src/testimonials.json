@@ -1,0 +1,109 @@
+{
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "occupation": "Marketing Executive",
+      "rating": 5,
+      "date": "2024-01-15",
+      "testimonial": "Dinika completely transformed my relationship with food. Her holistic approach helped me understand how gut health was affecting my energy levels. I feel more vibrant and focused than I have in years!"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "occupation": "Software Engineer",
+      "rating": 5,
+      "date": "2024-02-20",
+      "testimonial": "As someone with a hectic work schedule, I struggled with balanced nutrition. Dinika's practical meal planning strategies and mindful eating techniques have been game-changers. I've lost weight naturally and feel more energetic throughout the day."
+    },
+    {
+      "name": "Emily Chen",
+      "occupation": "Yoga Instructor",
+      "rating": 5,
+      "date": "2023-12-10",
+      "testimonial": "Dinika's holistic wellness approach perfectly aligns with my lifestyle. She helped me optimize my nutrition to support my practice and teaching. Her knowledge about the mind-body connection through food is exceptional."
+    },
+    {
+      "name": "Michael Thompson",
+      "occupation": "Business Owner",
+      "rating": 5,
+      "date": "2024-03-05",
+      "testimonial": "I came to Dinika with digestive issues that had plagued me for years. Her focus on gut health and personalized nutrition plan not only resolved my issues but improved my overall immunity. Highly recommend!"
+    },
+    {
+      "name": "Priya Sharma",
+      "occupation": "Teacher",
+      "rating": 5,
+      "date": "2024-01-28",
+      "testimonial": "Dinika taught me the art of mindful eating. I no longer stress about calories or restrictive diets. Instead, I've learned to listen to my body and nourish it properly. The results have been amazing - both physically and mentally."
+    },
+    {
+      "name": "David Rodriguez",
+      "occupation": "Fitness Trainer",
+      "rating": 5,
+      "date": "2023-11-15",
+      "testimonial": "Even as a fitness professional, I learned so much from Dinika about nutrition. Her evidence-based approach and deep understanding of food science helped me optimize my performance and better guide my own clients."
+    },
+    {
+      "name": "Lisa Anderson",
+      "occupation": "Stay-at-home Mom",
+      "rating": 5,
+      "date": "2024-02-12",
+      "testimonial": "Dinika helped our entire family adopt healthier eating habits. Her approach is so practical and sustainable. My kids are eating more vegetables, and we all have more energy. She's truly passionate about making wellness accessible."
+    },
+    {
+      "name": "Ahmed Hassan",
+      "occupation": "Doctor",
+      "rating": 5,
+      "date": "2023-10-20",
+      "testimonial": "As a physician, I appreciate Dinika's scientific approach to nutrition. Her understanding of gut health and immunity is impressive. She helped me address my own health issues that I had been ignoring for too long."
+    },
+    {
+      "name": "Grace Williams",
+      "occupation": "Artist",
+      "rating": 5,
+      "date": "2024-03-18",
+      "testimonial": "Dinika's mindful eating philosophy resonated deeply with me. She helped me heal my relationship with food and my body. I no longer experience the anxiety around eating that I struggled with for years."
+    },
+    {
+      "name": "James Park",
+      "occupation": "Financial Analyst",
+      "rating": 5,
+      "date": "2023-12-05",
+      "testimonial": "The personalized nutrition plan Dinika created for me was exactly what I needed. She considered my busy lifestyle and health goals. I've seen improvements in my cholesterol levels and overall health markers."
+    },
+    {
+      "name": "Anita Desai",
+      "occupation": "HR Manager",
+      "rating": 5,
+      "date": "2024-01-10",
+      "testimonial": "Dinika's holistic approach to wellness goes beyond just food. She helped me understand how stress was affecting my digestion and provided practical solutions. I feel more balanced and healthy than ever."
+    },
+    {
+      "name": "Robert Lee",
+      "occupation": "Retired Professional",
+      "rating": 5,
+      "date": "2023-11-28",
+      "testimonial": "At 65, I thought it was too late to change my eating habits. Dinika proved me wrong! Her gentle guidance and expertise in gut health have improved my digestion and energy levels significantly."
+    },
+    {
+      "name": "Sophia Martinez",
+      "occupation": "College Student",
+      "rating": 5,
+      "date": "2024-02-25",
+      "testimonial": "Dinika helped me navigate healthy eating on a student budget. Her practical tips and understanding of mindful eating helped me overcome stress eating during exams. I'm grateful for her compassionate approach."
+    },
+    {
+      "name": "William Brown",
+      "occupation": "Chef",
+      "rating": 5,
+      "date": "2023-12-18",
+      "testimonial": "As a chef, I thought I knew everything about food. Dinika opened my eyes to the nutritional science behind ingredients. Her balanced approach has influenced both my personal health and professional cooking."
+    },
+    {
+      "name": "Natasha Patel",
+      "occupation": "Entrepreneur",
+      "rating": 5,
+      "date": "2024-03-10",
+      "testimonial": "Dinika's holistic wellness consultations have been transformative. She helped me manage my PCOS symptoms through nutrition and lifestyle changes. Her knowledge and empathy make her an exceptional nutritionist."
+    }
+  ]
+} 

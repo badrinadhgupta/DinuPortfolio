@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-quintessential: 'Quintessential', cursive;
+  --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+}
+
+.font-quintessential {
+  font-family: var(--font-quintessential);
+}
+
+.font-roboto-condensed {
+  font-family: var(--font-roboto-condensed);
+}
+

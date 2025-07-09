@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 805 805">
+	<g id="YinYang" stroke="none" stroke-width="0" fill-rule="evenodd">
+		<title>Yin-Yang, by Adam Stanislav (modified)</title>
+		<desc>Modified to have green outer circle and green dots on both sides</desc>
+
+		<!-- Green outer circle -->
+		<circle cx="400" cy="400" r="400" fill="#059669"/>
+		
+		<!-- White background for the inner yin-yang -->
+		<circle cx="400" cy="400" r="390" fill="white"/>
+		
+		<!-- Black yin-yang shape (without outer ring and without dots) -->
+		<path fill="#000" d="M400 10C184.609 10 10 184.609 10 400 10 615.391 184.609 790 400 790 292.304 790 205 682.304 205 600 205 492.3 292.304 400 400 400 507.7 400 600 292.304 600 200 600 92.304 507.7 10 400 10z"/>
+		
+		<!-- Green dot on the white side -->
+		<circle cx="400" cy="200" r="68" fill="#059669"/>
+		
+		<!-- Green dot on the black side -->
+		<circle cx="400" cy="600" r="65" fill="#059669"/>
+	</g>
+</svg>
